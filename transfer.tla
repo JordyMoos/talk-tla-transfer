@@ -11,7 +11,7 @@ begin
 Transfer:
   if bekir_account >= money then
     A: bekir_account := bekir_account - money;
-    B: jordy_account := jordy_account + money;
+       jordy_account := jordy_account + money;
   end if;
 C: assert bekir_account >= 0;
 
